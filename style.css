@@ -314,7 +314,7 @@ input {
 
 footer {
     background-color: var(--footer-Blue);
-    padding: 150px 0 75px;
+    padding: 175px 0 75px;
     text-align: left;
 }
 
@@ -337,7 +337,6 @@ footer .logo {
 
 #social-links {
     align-self: flex-start;
-    width: 10%;
 }
 
 #social-links li {
@@ -348,4 +347,5 @@ footer .logo {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 5px;
 }
