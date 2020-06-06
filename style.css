@@ -422,7 +422,7 @@ footer .logo {
 
     #testimonials .container {
         flex-direction: column;
-        padding: 20px 0 300px 0;
+        padding: 15px 0 300px 0;
         background-size: 25px;
         width: 80%;
     }
