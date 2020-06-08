@@ -392,7 +392,7 @@ footer .logo {
     #features::before {
         background-image: url(./images/bg-curvy-mobile.svg);
         background-size: contain;
-        top: -510px;
+        top: -515px;
         height: 160px;
     }
 
