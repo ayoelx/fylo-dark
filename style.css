@@ -362,7 +362,7 @@ footer .logo {
     /* HEADER */
 
     header {
-        margin: 1.5em 0;
+        margin: 1.5em 0 5em;
     }
 
     header .logo {
@@ -391,8 +391,20 @@ footer .logo {
 
     #features::before {
         background-image: url(./images/bg-curvy-mobile.svg);
-        top: -200px;
-        height: 200px;
+        background-size: contain;
+        top: -510px;
+        height: 160px;
+    }
+
+    #features::after {
+        content: '';
+        background-color: var(--main-Blue);
+        height: 375px;
+        width: 100%;
+        top: -375px;
+        left: 0;
+        position: absolute;
+        z-index: 0; 
     }
 
     #features .container {
