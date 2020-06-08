@@ -399,9 +399,9 @@ footer .logo {
     #features::after {
         content: '';
         background-color: var(--main-Blue);
-        height: 375px;
+        height: 370px;
         width: 100%;
-        top: -375px;
+        top: -370px;
         left: 0;
         position: absolute;
         z-index: 0; 
